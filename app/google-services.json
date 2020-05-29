@@ -1,0 +1,48 @@
+{
+  "project_info": {
+    "project_number": "121636534674",
+    "firebase_url": "https://pikaplace-4ffa3.firebaseio.com",
+    "project_id": "pikaplace-4ffa3",
+    "storage_bucket": "pikaplace-4ffa3.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:121636534674:android:16fd58e0b68ecd646da94b",
+        "android_client_info": {
+          "package_name": "thu.ait.pikaplaceapplication"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "121636534674-pjrmf3dvmpenb4lg2r15bm3n56v3eamg.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "thu.ait.pikaplaceapplication",
+            "certificate_hash": "b22b2c95bc5c4c467b5098609fc53e555fb5e34e"
+          }
+        },
+        {
+          "client_id": "121636534674-imo3fjccrnoko9ug1334bkm5f46d5as9.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyCjJSb4IymVuO2495NqxgbciCS2yvWrvm8"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "121636534674-imo3fjccrnoko9ug1334bkm5f46d5as9.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

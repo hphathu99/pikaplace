@@ -1,0 +1,105 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:paddingHorizontal="15dp"
+    android:paddingLeft="30dp"
+    android:paddingRight="30dp"
+    android:gravity="center_horizontal"
+    tools:context=".InviteActivity">
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/tvInvite"
+        android:text="@string/invite_friends"
+        android:textStyle="bold"
+        android:fontFamily="sans-serif-medium"
+        android:gravity="center_horizontal"
+        android:textSize="24sp"/>
+
+    <com.google.android.material.textfield.TextInputLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="8dp">
+
+        <EditText
+            android:id="@+id/etName"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:hint="@string/hint_group" />
+    </com.google.android.material.textfield.TextInputLayout>
+
+    <com.hootsuite.nachos.NachoTextView
+        android:id="@+id/nacho_text_view"
+        android:hint="@string/hint_friends"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"/>
+
+    <Button
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/btnAdd"
+        android:text="ADD" />
+
+    <Button
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/hint_date"
+        android:id="@+id/btDate"
+        android:onClick="showDatePickerDialog" />
+
+    <TextView
+        android:id="@+id/tvDate"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="24-5-2020"
+        android:textSize="24sp" />
+
+    <Button
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/hint_time"
+        android:id="@+id/btTime"
+
+        android:onClick="showTimePickerDialog" />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textSize="24sp"
+        android:text="12:12"
+        android:id="@+id/tvTime" />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textSize="24sp"
+        android:textStyle="bold"
+        android:paddingTop="5dp"
+        android:text="@string/place_type">
+    </TextView>
+
+    <Spinner
+        android:id="@+id/spinType"
+        android:entries="@array/categories"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:scrollbarSize="30sp"
+        android:tooltipText="@string/category" />
+
+    <Button
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/create"
+        android:layout_marginTop="10dp"
+        android:background="#009688"
+        android:textColor="#FFFFFF"
+        android:id="@+id/btnCreate"/>
+
+
+
+</LinearLayout>

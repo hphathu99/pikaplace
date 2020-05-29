@@ -1,0 +1,24 @@
+<resources>
+    <string name="app_name">PikaPlaceApplication</string>
+    <string-array name="categories">
+        <item>Arts,Entertainment</item>
+        <item>Restaurant</item>
+        <item>Coffee</item>
+        <item>Bar</item>
+        <item>Outdoors</item>
+    </string-array>
+    <string name="title_activity_maps">Map</string>
+    <string name="title_activity_map2">Map</string>
+    <string name="load_location">Fetching your current location...</string>
+    <string name="next">NEXT</string>
+    <string name="invite_friends">Now let\'s invite your friends!</string>
+    <string name="hint_group">Enter your group\'s name</string>
+    <string name="hint_friends">Enter your friends\' emails</string>
+    <string name="hint_date">Pick a Date!</string>
+    <string name="hint_time">Pick a Time!</string>
+    <string name="place_type">Place type</string>
+    <string name="category">Category:</string>
+    <string name="create">CREATE EVENT</string>
+    <string name="pikaplace">PikaPlace!</string>
+    <string name="get_places">GET PLACES</string>
+</resources>
